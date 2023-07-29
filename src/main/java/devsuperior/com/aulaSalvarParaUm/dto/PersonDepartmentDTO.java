@@ -24,18 +24,22 @@ public class PersonDepartmentDTO {
     }
 
     public Long getId() {
+
         return id;
     }
 
     public String getName() {
+
         return name;
     }
 
     public Double getSalary() {
+
         return salary;
     }
 
     public DepartmentDTO getDepartment() {
+
         return department;
     }
 }
